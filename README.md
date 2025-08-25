@@ -11,7 +11,8 @@ Main subjects of our comparison are:
 - IAM: authentication and authorisation setup
 - Repository support: using code and artefact repositories as made available by the providers
 - Deployment support: supported deployment tooling (API, Terraform, OpenTofu)
-- Runtime: deployment and operational experience (duration of setup, costs, administration, logging, monitoring)
+- Runtime: deployment and operational experience (duration of setup, administration, logging, monitoring)
+- Costs: based on actual invoice amount, so overall costs per month
 
 We will explicitly research OpenStack support regarding services, deployment and runtime: what are the possibilities of or limitations in running general OpenStack components and tooling?
 
@@ -24,6 +25,15 @@ Base selection:
 - openstack CLI
 - opentofu CLI
 - git CLI
+- Docker container tooling
+
+Project specifics:
+
+- OpenStack SWIFT (object storage)
+- OpenStack ZUN (managed container service)
+- GaussDB with PostgreSQL interface (OTC: Data Warehouse Service)
+- dagster for workflow orchestration
+- BI tooling: ???
 
 # Initial setup of this repository
 
