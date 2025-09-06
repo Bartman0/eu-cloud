@@ -10,11 +10,6 @@ terraform {
 provider "openstack" {
   # Configuration options
   cloud = var.cloud
-  tenant_name = "OTC00000000001000143687"
-  user_name   = "richard"
-  password    = "ZeerOTCGeheim03!"
-  auth_url    = "https://iam.eu-de.otc.t-systems.com:443/v3"
-  region      = "eu-nl"
 }
 
 resource "openstack_networking_secgroup_v2" "secgroup_test" {
